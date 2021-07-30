@@ -1,3 +1,9 @@
-body{
+body {
     background-color: beige;
+    text-align: center;
+}
+
+.contact-form {
+text-align: center;
+display: inline-block;
 }
