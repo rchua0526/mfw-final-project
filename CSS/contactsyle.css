@@ -1,9 +1,16 @@
 body {
     background-color: beige;
+    /* text-align: center; */
+    color: whitesmoke;
+}
+
+.contact {
     text-align: center;
+    padding-top: 300px;
 }
 
 .contact-form {
 text-align: center;
 display: inline-block;
 }
+
