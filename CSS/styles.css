@@ -26,7 +26,7 @@ header{
 }
 #hero {
     background-image: url("/IMG/street.jpg");
-    height: 1100px;
+    height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,39 +35,35 @@ header{
     text-align: right;
   }
 
-footer{
-    height: 150px;
-}
-
 .distance {
-    height: 400px;
+height: 300px;
 }
 .slides {
-    border: solid 2px white;
+border: solid 2px white;
 }
 
 p {
-    color: whitesmoke;
+color: whitesmoke;
 }
 
 .carousel .carousel-item {
-    height: 700px;
-  }
+height: 700px;
+}
   
 .carousel-item img {
-      position: absolute;
-      object-fit:cover;
-      top: 0;
-      left: 0;
-      min-height: 700px;
-  }
+position: absolute;
+object-fit:cover;
+top: 0;
+left: 0;
+min-height: 700px;
+}
 
 .clearfloat{
-    clear: both;
+clear: both;
 }
 
 ::-webkit-scrollbar { 
-    display: none; 
+display: none; 
 }        
 
 * {
@@ -84,15 +80,13 @@ width: 100%;
 .thumbnail-container:hover p{
     visibility: visible;
 }
-li
-{
+li {
   list-style-type: none;
   margin-left: 1vw;
 }
 
-li:first-child
-{
-  margin:0;
+li:first-child{
+margin:0;
 }
 
 footer{
