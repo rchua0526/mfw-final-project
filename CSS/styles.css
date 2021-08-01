@@ -47,8 +47,9 @@ color: whitesmoke;
 }
 
 .carousel .carousel-item {
-height: 140vh;
+height: 120vh;
 width: 100%;
+font-size: xx-large;
 }
   
 .carousel-item img {
@@ -122,3 +123,9 @@ margin-bottom: 1vh;
 h5{
     color: whitesmoke;
 }
+
+.gallery {
+    height: 100px;
+    width: 100px;
+}
+
