@@ -7,10 +7,13 @@ body {
 .contact {
     text-align: center;
     padding-top: 300px;
+    
 }
 
 .contact-form {
 text-align: center;
 display: inline-block;
+border: whitesmoke 2px solid;
+padding: 30px;
 }
 

@@ -9,7 +9,6 @@ body, html{
 }
 
 header{
-    
     color:whitesmoke;
     /* border: 2px solid white; */
     /* height: 1100px; */
@@ -21,7 +20,10 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+.container {
+    text-align: center;
+    align-items: center;
+}
 #hero {
     background-image: url("/IMG/street.jpg");
     height: 1100px;
@@ -39,4 +41,84 @@ footer{
 
 .distance {
     height: 400px;
+}
+.slides {
+    border: solid 2px white;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.carousel .carousel-item {
+    height: 700px;
+  }
+  
+.carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 700px;
+  }
+
+.clearfloat{
+    clear: both;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}        
+
+* {
+overflow: auto; /* or auto */
+}  
+
+.thumbnail-container img{
+width: 100%;
+}
+
+.thumbnail-container p{
+    visibility: hidden;
+}
+.thumbnail-container:hover p{
+    visibility: visible;
+}
+li
+{
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+li:first-child
+{
+  margin:0;
+}
+
+footer{
+padding-top: 5vh;
+padding-bottom: 2vh;
+}
+
+.content{
+height: 12vh;
+}
+
+.copyright, .impressum{
+text-align: center;
+}
+
+.logo {
+height: 8vh;
+}
+
+@media (max-width: 768px) 
+{
+li {
+margin-left: 0;
+margin-bottom: 1vh;
+}
+  
+.sozial {
+margin-bottom: 1vh;
 }
