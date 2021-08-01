@@ -47,7 +47,8 @@ color: whitesmoke;
 }
 
 .carousel .carousel-item {
-height: 700px;
+height: 140vh;
+width: 100%;
 }
   
 .carousel-item img {
@@ -72,6 +73,7 @@ overflow: auto; /* or auto */
 
 .thumbnail-container img{
 width: 100%;
+/* float: left; */
 }
 
 .thumbnail-container p{
@@ -95,7 +97,7 @@ padding-bottom: 2vh;
 }
 
 .content{
-height: 12vh;
+height: 30px;
 }
 
 .copyright, .impressum{
