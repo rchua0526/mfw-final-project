@@ -33,7 +33,7 @@ header{
     background-size: cover;
     border: 2px solid whitesmoke;
     text-align: right;
-  }
+}
 
 .distance {
 height: 300px;
@@ -115,4 +115,8 @@ margin-bottom: 1vh;
   
 .sozial {
 margin-bottom: 1vh;
+}
+
+h5{
+    color: whitesmoke;
 }
