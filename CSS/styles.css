@@ -6,6 +6,7 @@ body, html{
     background-image: url("../IMG/street.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: bisque;
 }
 
 header{
@@ -23,6 +24,7 @@ header{
 .container {
     text-align: center;
     align-items: center;
+    background-image: url("../IMG/street.jpg")
 }
 #hero {
     background-image: url("../IMG/street.jpg");
