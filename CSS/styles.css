@@ -125,7 +125,6 @@ h5{
 }
 
 .gallery {
-    height: 100px;
-    width: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
-
