@@ -1,8 +1,8 @@
-body, html{
+body {
     margin: 0;
     padding:0; 
     height: 100%;
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
     background-image: url("../IMG/street.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,10 +24,8 @@ header{
 .container {
     text-align: center;
     align-items: center;
-    background-image: url("../IMG/street.jpg")
 }
 #hero {
-    background-image: url("../IMG/street.jpg");
     height: 1000px;
     background-attachment: fixed;
     background-position: center;
