@@ -58,8 +58,6 @@ p {
 color: whitesmoke;
 }
 
-
-
 .carousel .carousel-item {
 height: 120vh;
 width: 100%;
@@ -87,9 +85,20 @@ display: none;
 overflow: auto; /* or auto */
 }  
 
-.thumbnail-container img{
-width: 100%;
-/* float: left; */
+.thumbnail-container-one{
+    width: 100%;
+    background-image: url(IMG\capsule.png);
+    background-position: center;
+}
+
+.thumbnail-container-two{
+  display: block;
+  width: 100%;
+  position: relative;
+  /* height: 0; */
+  /* padding: 80% 0 0 0; */
+  overflow: hidden;
+  border: none;
 }
 
 .thumbnail-container p{
@@ -139,5 +148,56 @@ h5{
     color: whitesmoke;
 }
 
-#gallery {
-   display: inline-block;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+
