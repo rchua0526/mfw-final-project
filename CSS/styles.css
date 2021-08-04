@@ -63,7 +63,14 @@ height: 120vh;
 width: 100%;
 font-size: xx-large;
 }
-  
+ 
+.quote{
+    text-shadow: 3px 3px black;
+}
+.blockquote-footer {
+    text-shadow: 3px 3px black;
+}
+
 .carousel-item img {
 position: absolute;
 object-fit:cover;
