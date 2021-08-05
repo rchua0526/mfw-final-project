@@ -92,20 +92,14 @@ display: none;
 overflow: auto; /* or auto */
 }  
 
+.thumbnail2 {
+    height: 80%;
+    width: 80%;
+}
 .thumbnail-container-one{
     width: 100%;
     background-image: url(IMG\capsule.png);
     background-position: center;
-}
-
-.thumbnail-container-two{
-  display: block;
-  width: 100%;
-  position: relative;
-  /* height: 0; */
-  /* padding: 80% 0 0 0; */
-  overflow: hidden;
-  border: none;
 }
 
 .thumbnail-container p{
